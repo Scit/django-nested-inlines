@@ -1,14 +1,12 @@
 #!/usr/bin/python
 from setuptools import setup, find_packages
 
-from nested_inlines import __version__
-
 github_url = 'https://github.com/soaa-/django-nested-inlines'
 long_desc = open('README.md').read()
 
 setup(
     name='django-nested-inlines',
-    version='.'.join(str(v) for v in __version__),
+    version='0.1',
     description='Adds nested inline support in Django admin',
     long_description=long_desc,
     url=github_url,
@@ -28,4 +26,3 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
 )
-
